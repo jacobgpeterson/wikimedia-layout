@@ -1,1 +1,49 @@
-
+html, body {
+	height:100%;
+	width:100%;
+	margin:auto;
+}
+.intro {
+	font-size: 20px;
+	font-family: sans-serif;
+	width:70%;
+	margin: auto;
+	min-width: 500px;
+	line-height: 160%;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.welcome {
+	text-align: right;
+}
+.content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width:70%;
+	margin: auto;
+	max-width: 800px;
+	min-width: 800px;
+}
+.links {
+	height:135px;
+	width:135px;
+	margin: 20px;
+	float:left;
+	text-align: center;
+}
+footer {
+	border-top: 1px solid #AAAAAA;
+	width:70%;
+	margin:auto;
+	height:85px;
+	font-size:15px;
+	text-align: center;
+}
+footer a{
+	padding: 10px;
+}
